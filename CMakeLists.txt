@@ -24,7 +24,7 @@ if(BUILD_OS_WINDOWS)
     set(PYTHON_EXECUTABLE ${CMAKE_INSTALL_PREFIX}/bin/python.exe)
 else()
     # All other OSs like OSX
-    set(PYTHON_EXECUTABLE ${CMAKE_INSTALL_PREFIX}/bin/python3)
+    set(PYTHON_EXECUTABLE ${CMAKE_INSTALL_PREFIX}/bin/python3.5)
 endif()
 
 # Build projects step
